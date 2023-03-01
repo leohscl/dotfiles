@@ -12,7 +12,14 @@
 # cargo install ripgrep
 # cargo install fd-find
 # cargo install cargo-info
+# cargo install starship
+cargo install du-dust
+cargo install speedtest-rs
+cargo install wiki-tui
+cargo install mprocs
+cargo install zellij
 #
 # mkdir ~/.config/fish
-echo "alias ls=\"exa\"" > $HOME/.config/fish/config.fish
-echo "alias cat=\"bat\"" >> $HOME/.config/fish/config.fish
+# echo "alias ls=\"exa\"" > $HOME/.config/fish/config.fish
+# echo "alias cat=\"bat\"" >> $HOME/.config/fish/config.fish
+# echo "starship init fish | source" >> $HOME/.config/fish/config.fish
