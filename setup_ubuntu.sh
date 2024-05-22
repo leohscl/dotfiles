@@ -35,3 +35,12 @@
 # sudo tar -C /opt -xzf nvim-linux64.tar.gz
 # echo "alias vim=nvim" >> ~/.config/fish/config.fish
 # echo "fish_add_path /opt/nvim-linux64/bin" >> ~/.config/fish/config.fish
+#
+# i3²
+
+sudo apt install libsensors-dev
+cd
+git clone https://github.com/greshake/i3status-rust
+cd i3status-rust
+cargo install --path . --locked
+./install.sh
