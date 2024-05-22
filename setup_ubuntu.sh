@@ -6,9 +6,10 @@
 # log in and out
 # fish_hybrid_key_bindings
 
-#curl https://sh.rustup.rs -sSf | sh
-#source ~/.cargo/env.fish
-
+# curl https://sh.rustup.rs -sSf | sh
+# source ~/.cargo/env.fish
+#
+# sudo apt install build-essential pkg-config libssl
 # cargo install sccache
 # echo "[build]
 # rustc-wrapper = \"$HOME/.cargo/bin/sccache\"" > $HOME/.cargo/config.toml
@@ -29,8 +30,8 @@
 # mkdir ~/.config/fish
 # echo "alias ls=\"exa\"" > $HOME/.config/fish/config.fish
 # echo "alias cat=\"bat\"" >> $HOME/.config/fish/config.fish
-# curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
 # sudo rm -rf /opt/nvim
+# curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim-linux64.tar.gz
 # sudo tar -C /opt -xzf nvim-linux64.tar.gz
 # echo "alias vim=nvim" >> ~/.config/fish/config.fish
 # echo "fish_add_path /opt/nvim-linux64/bin" >> ~/.config/fish/config.fish
