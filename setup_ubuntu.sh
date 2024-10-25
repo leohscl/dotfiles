@@ -43,7 +43,7 @@
 # curl -sS https://starship.rs/install.sh | sh
 # echo "starship init fish | source" >> $HOME/.config/fish/config.fish
 # more aliases
-# echo "alias ls=\"exa\"" > $HOME/.config/fish/config.fish
+# echo "alias ls=\"exa\"" >> $HOME/.config/fish/config.fish
 # echo "alias cat=\"bat\"" >> $HOME/.config/fish/config.fish
 # sudo apt install libsensors-dev libssl-dev
 # cd
